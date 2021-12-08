@@ -29,3 +29,17 @@ step 3 -> git status //to check the status of that directory after adding files 
 step 4 -> git commit -m "first commit" //to make commit for the changes
 
 step 5 -> git push //to push changes to the repository
+
+
+//******************************************************************************************************
+
+//Bonus tips
+
+if this error shows -> Unable to create 'C:/Users/Manish/Desktop/codes/DEV/.git/index.lock': File exists.
+
+then do following ->
+step 1 -> open cmd in that directory
+
+step 2 -> run -> " del .git\index.lock " 
+
+//it will delete "index.lock" file and create new one and hopefully remove the error
